@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+	<!-- Meta för åäö i HTML5-->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf8">
+	<title></title>
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<h1> T-shirtskapare v1.0.0.1</h1>
+
+		<div id="tShirtF">
+
+			<div id="fText"></div>
+		</div>
+		<div id="tShirtB">
+
+			<div id="bText"></div>
+		</div>
+		<div>
+			<form>
+				<div id="formText"> <input type="text" value="Text för framsida" id="fTextBox"></div>
+				<div><input type="text" value="Text för baksida" id="bTextBox"></div>
+				<div><input type="button" value="Välj" id="myBtn"></div>
+				<div><input type="radio" name="color" value="white" id="white" onclick="changeImageWhite()" checked>White</div>
+				<div><input type="radio" name="color" value="black" id="black" onclick="changeImageBlack()">Black</div>
+
+		</div>
+
+
+		<!-- Här länkas JavaScript filen till dokumentet-->
+		<script src="script.js"></script>
+	</div>
+</body>
+
+</html>
